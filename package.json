@@ -2,7 +2,7 @@
     "name": "screeps",
     "version": "0.1.0",
     "scripts": {
-        "build": "rollup -cw",
+        "build": "rollup -c",
         "test": "echo \"Error: no test specified\" && exit"
     },
     "type": "module",
@@ -13,6 +13,8 @@
     "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.7",
         "@rollup/plugin-node-resolve": "^15.2.3",
-        "rollup": "^4.9.6"
+        "rollup": "^4.9.6",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "typescript": "^5.3.3"
     }
 }
