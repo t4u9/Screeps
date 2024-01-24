@@ -1,5 +1,18 @@
 {
-  "dependencies": {
-    "@types/screeps": "^3.3.7"
-  }
+    "name": "screeps",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "rollup -cw",
+        "test": "echo \"Error: no test specified\" && exit"
+    },
+    "type": "module",
+    "dependencies": {
+        "@types/screeps": "^3.3.7",
+        "source-map": "^0.7.4"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "rollup": "^4.9.6"
+    }
 }
